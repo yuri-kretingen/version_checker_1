@@ -1,0 +1,15 @@
+assembly-versioning-scheme: MajorMinorPatch
+mode: ContinuousDeployment
+next-version: 1.0.0
+branches:
+  release:
+    mode: ContinuousDeployment
+  main:
+    mode: ContinuousDeployment
+  develop:
+    mode: ContinuousDeployment
+  feature:
+    mode: ContinuousDeployment
+ignore:
+  sha: []
+merge-message-formats: {}
