@@ -1,17 +1,17 @@
 using System;
 
 public class TestController
-{
-    public void Controll()
+{    
+    public void Control()
     {
-        Console.WriteLine("Controll +");
+        Console.WriteLine("Control");
     }
 
     public void Control2()
     {
-        Console.WriteLine("Controll 2");
+        Console.WriteLine("Control 2");
     }
-
+    
     public void Control3()
     {
         Console.WriteLine("Controll 3");
