@@ -19,6 +19,6 @@ public class TestController
     
     public void Control3()
     {
-        Console.WriteLine("Controll 3");
-    }
+        Console.WriteLine("Controll 3.0");
+    }    
 }
