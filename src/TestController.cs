@@ -2,9 +2,9 @@ using System;
 
 public class TestController
 {    
-    public void Control2()
+    public void Control()
     {
-        Console.WriteLine("Controll 2");
+        Console.WriteLine("Control");
     }
 
     public void Control3()
