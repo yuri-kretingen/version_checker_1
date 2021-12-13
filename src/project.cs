@@ -3,10 +3,6 @@ public class TestApi
 {
     public void TestFoo()
     {
-        return;
-    }
-    public static void Main()
-    {
-        return;
-    }
+        Console.WriteLine("Test Foo");
+    }   
 }

@@ -5,8 +5,9 @@ namespace src
     class Program
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+        {            
+            var test = new TestApi();
+            test.TestFoo();
         }
     }
 }
