@@ -6,4 +6,9 @@ public class TestController
     {
         Console.WriteLine("Controll +");
     }
+
+    public void Control2()
+    {
+        Console.WriteLine("Controll 2");
+    }
 }
