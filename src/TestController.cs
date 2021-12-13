@@ -11,4 +11,9 @@ public class TestController
     {
         Console.WriteLine("Controll 2");
     }
+
+    public void Control3()
+    {
+        Console.WriteLine("Controll 3");
+    }
 }
