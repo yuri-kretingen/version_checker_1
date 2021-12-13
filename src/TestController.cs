@@ -7,6 +7,11 @@ public class TestController
         Console.WriteLine("Control");
     }
 
+    public void Control1()
+    {
+        Console.WriteLine("Control 1");
+    }
+
     public void Control2()
     {
         Console.WriteLine("Control 2");
