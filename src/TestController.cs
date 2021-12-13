@@ -4,7 +4,12 @@ public class TestController
 {    
     public void Control()
     {
-        Console.WriteLine("Control");
+        Console.WriteLine("Control 0");
+    }
+
+    public void Control1()
+    {
+        Console.WriteLine("Control 1");
     }
 
     public void Control2()
