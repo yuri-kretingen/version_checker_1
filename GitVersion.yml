@@ -10,6 +10,13 @@ branches:
     mode: ContinuousDeployment
   feature:
     mode: ContinuousDeployment
+  pull-request:
+    regex: ^(pull|pull\-requests|pr)[/-]
+    mode: ContinuousDelivery
+    tag: PullRequest
+    increment: Inherit
+    prevent-increment-of-merged-branch-version: false
 ignore:
   sha: []
+commit-message-incrementing: Enabled
 merge-message-formats: {}
