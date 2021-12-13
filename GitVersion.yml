@@ -1,6 +1,5 @@
 assembly-versioning-scheme: MajorMinorPatch
 mode: ContinuousDeployment
-next-version: 1.0.0
 branches:
   release:
     mode: ContinuousDeployment
@@ -18,5 +17,5 @@ branches:
     prevent-increment-of-merged-branch-version: false
 ignore:
   sha: []
-commit-message-incrementing: Enabled
+commit-message-incrementing: MergeMessageOnly
 merge-message-formats: {}
