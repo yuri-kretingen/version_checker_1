@@ -1,14 +1,6 @@
 assembly-versioning-scheme: MajorMinorPatch
 mode: Mainline
-branches:
-  release:
-    mode: ContinuousDeployment
-  main:
-    mode: Mainline
-  develop:
-    mode: Mainline
-  feature:
-    mode: Mainline
+branches:  
   pull-request:
     regex: ^(pull|pull\-requests|pr)[/-]
     mode: ContinuousDelivery
