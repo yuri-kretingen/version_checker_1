@@ -4,11 +4,11 @@ branches:
   release:
     mode: ContinuousDeployment
   main:
-    mode: ContinuousDeployment
+    mode: Mainline
   develop:
-    mode: ContinuousDeployment
+    mode: Mainline
   feature:
-    mode: ContinuousDeployment
+    mode: Mainline
   pull-request:
     regex: ^(pull|pull\-requests|pr)[/-]
     mode: ContinuousDelivery
