@@ -6,7 +6,10 @@ namespace src
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var test = new TestApi();
+            test.TestFoo();
+            Console.WriteLine("Main");
+            test.TestFoo2();
         }
     }
 }
