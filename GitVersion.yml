@@ -4,10 +4,14 @@ branches:
   pull-request:
     regex: ^(pull|pull\-requests|pr)[/-]
     mode: ContinuousDelivery
-    tag: PullRequest
-    increment: Inherit
+    tag: PullRequest    
     prevent-increment-of-merged-branch-version: false
 ignore:
   sha: []
-commit-message-incrementing: MergeMessageOnly
+commit-message-incrementing: Enabled
+major-version-bump-message: '\+semver:\s?(breaking|major)'
+minor-version-bump-message: '\+semver:\s?(feature|minor)'
+patch-version-bump-message: '\+semver:\s?(fix|patch)'
+no-bump-message: '\+semver:\s?(none|skip)'
 merge-message-formats: {}
+update-build-number: true
