@@ -25,5 +25,10 @@ public class TestController
     public void Control4()
     {
         Console.WriteLine("Controll 4.0");
-    } 
+    }
+
+    public void Control5()
+    {
+        Console.WriteLine("Controll 4.0");
+    }
 }
