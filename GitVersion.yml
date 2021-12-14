@@ -8,7 +8,7 @@ branches:
     prevent-increment-of-merged-branch-version: false
 ignore:
   sha: []
-commit-message-incrementing: Enabled
+commit-message-incrementing: MergeMessageOnly
 major-version-bump-message: '\+semver:\s?(breaking|major)'
 minor-version-bump-message: '\+semver:\s?(feature|minor)'
 patch-version-bump-message: '\+semver:\s?(fix|patch)'
