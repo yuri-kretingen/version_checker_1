@@ -21,4 +21,14 @@ public class TestController
     {
         Console.WriteLine("Controll 3.0");
     }    
+
+    public void Control4()
+    {
+        Console.WriteLine("Controll 4.0");
+    }
+
+    public void Control5()
+    {
+        Console.WriteLine("Controll 4.0");
+    }
 }
